@@ -1,0 +1,28 @@
+PS C:\Users\cobra> cd C:\Users\cobra\OneDrive\ドキュメント
+PS C:\Users\cobra\OneDrive\ドキュメント> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\cobra\OneDrive\ドキュメント
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/06/04     14:11                git_challenge
+
+
+PS C:\Users\cobra\OneDrive\ドキュメント> cd C:\Users\cobra\OneDrive\ドキュメント\git_challenge
+PS C:\Users\cobra\OneDrive\ドキュメント\git_challenge> git add .
+PS C:\Users\cobra\OneDrive\ドキュメント\git_challenge> git commit -m "hello_world.txtを追加"
+[main f9996f4] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+ create mode 100644 "OneDrive/\343\203\211\343\202\255\343\203\245\343\203\241\343\203\263\343\203\210/git_challenge/hello_world.txt"
+PS C:\Users\cobra\OneDrive\ドキュメント\git_challenge> git add .
+PS C:\Users\cobra\OneDrive\ドキュメント\git_challenge> git commit -m "日本語訳を追記"
+[main c4649a8] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\cobra\OneDrive\ドキュメント\git_challenge> git log --oneline
+c4649a8 (HEAD -> main) 日本語訳を追記
+f9996f4 hello_world.txtを追加
+0dbf497 日本語訳を追記
+(END)
